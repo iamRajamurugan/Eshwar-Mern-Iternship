@@ -1,0 +1,44 @@
+/* Container for the seat selection */
+.seat-selection-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Grid for seats */
+  .seat-container {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* 10 seats per row */
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 450px;
+  }
+  
+  /* Individual seat */
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc; /* Default seat color */
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Selected seat */
+  .seat.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Occupied seat (if you add this logic later) */
+  .seat.occupied {
+    background-color: #f44336;
+    pointer-events: none;
+  }
+  
