@@ -1,1 +1,102 @@
-.
+MERN internship notes:
+
+1.client side and server side
+2.powerfull language 
+3.React and angular are popular frameworks for JavaScript
+
+Addition
+Subtraction
+Multiplication
+Division
+Quotient
+Remainder
+Arrow functions:
+1.TO increase readability
+2.We can create functions without names
+3.Is called as arrow functions
+const greet = () => "Hello, World!";
+console.log(greet());
+
+
+  [document.getElementById("response").innerHTML = howareyou();]
+   obj . fun  (id_name)  .  property = namefunc()\
+
+
+design a simple calculator by getting 2 numbers as input and display addition sub mul div qoution remainder for the two number by creating individual arrow functions for the same 
+
+
+promise method types:
+*when there is more than one promise in order to review them we can use promise inbuilt methods according to requirement
+.all()
+.any()
+.allsettled()
+.race() 
+
+
+once it sees a promise false it stops - all()
+give the shortest time promise - 
+
+
+
+monitoring the impact of effect can be done using hook
+
+
+
+useEffect Hook
+The useEffect hook is like a constructor in Java. It automatically gets executed when the component is rendered.
+It monitors changes in variables or state and allows us to perform specific actions based on these changes.
+A key part of useEffect is the dependency array, which tells React what to watch for.
+
+
+use effects :
+1.Callback function - Constructor in java(automatically gets executed)
+2.dependency array
+
+
+
+State : a state is a callback function & user info from 
+
+
+
+
+
+
+MongoDB and Mongosh
+MongoDB is a popular NoSQL database used to store data in a JSON-like format.
+The MongoDB shell (mongosh) provides an interactive environment to:
+Run queries
+Manage databases
+Perform administrative tasks
+
+
+
+
+MONGOSH :
+THE mongodb shell gives you an interactive environtment where you can run queries , manage database and perform 
+
+
+
+
+name,model,color,price, (another object: vedor name, vendor price )
+
+1.list out particular model laptops 
+2. change its status to avaialbe to unavailable 
+3. 
+
+
+
+
+
+Node.js:
+Runtime environment that allows you to run javascript on the server side.
+
+run command:
+always start the server first --- node server.js
+command to run client ---> npm start
+we can delete package.json to get it back cmd : npm init -y
+
+
+when we write a api for exclusive purpose we call it as rest api
+
+cors 
+when a webpage get a information form a resourse wheather to accept the request and process it or not will be defined in the rule book for this purpose we use cards 
